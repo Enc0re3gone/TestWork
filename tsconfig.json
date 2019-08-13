@@ -1,6 +1,9 @@
 {
   "compileOnSave": false,
+  "_comment": "resolveJsonModule, allowSyntheticDefaultImports добавленные свойства",
   "compilerOptions": {
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "sourceMap": true,

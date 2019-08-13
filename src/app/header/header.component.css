@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Flamenco&display=swap');
+header {
+  background: #252525;
+  border-bottom: 1px solid #ccc;
+}
+.logo {
+  color: #fff;
+  font-family: Flamenco;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 22px;
+  letter-spacing: -0.05em;
+}
+.nav-link {
+  color: #C1C1C1;
+}

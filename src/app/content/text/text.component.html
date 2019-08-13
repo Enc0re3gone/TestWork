@@ -1,0 +1,21 @@
+<ng-container *ngIf="firstShow">
+  <div class="content" *ngFor="let list of lists">
+    <div class="avatar d-flex align-items-center justify-content-center">
+      <div class="number">
+        <span>№ 321</span>
+      </div>
+    </div>
+    <div class="text">
+<pre>{{list.text}}</pre>
+    </div>
+  </div>
+  <div class="load-group">
+    <button class="load" (click)="addCount()">Загрузить еще
+      <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M19.25 3.5V8.75H14" stroke="#595959" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M17.0538 13.125C15.8853 16.4323 12.6703 18.5681 9.16862 18.3633C5.66696 18.1584 2.72291 15.6623 1.94807 12.2413C1.17323 8.82032 2.75441 5.29925 5.82606 3.60558C8.89771 1.9119 12.7193 2.45395 15.1988 4.93502L19.25 8.75002" stroke="#595959" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+    </button><br><br>
+    <span *ngIf="msg" class="msg">Больше нечего загружать :(</span>
+  </div>
+</ng-container>
